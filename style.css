@@ -67,7 +67,7 @@ nav{
 .last-cell{
     border-right: none;
 }
-button{
+.button{
     height:35px;
     width:80px;
     color: white;
@@ -76,7 +76,7 @@ button{
     font-size: 18px;
 }
 
-button :hover{
+.button :hover{
     background-color: green;
     
  }
