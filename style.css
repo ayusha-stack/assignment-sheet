@@ -67,29 +67,21 @@ nav{
 .last-cell{
     border-right: none;
 }
-a{
-    text-decoration: none;
-    color: #555;
-}
-.button{
-    
-    border-radius: 10px;
-    text-align: center;
-    height: 35px;
-    width: 100px;
+button{
+    height:35px;
+    width:80px;
+    color: white;
+    border-radius: 5%;
     border: none;
-    transition-duration: 0.4s;
-    
-    
+    font-size: 18px;
 }
 
-.button:hover{
-    color:white;
-}
-.text{
-    color: #fff;
-    font-size: 16px;
-}
+button :hover{
+    background-color: green;
+    
+ }
+
+
 
 @media only screen and (max-width: 600px) {
   .table-row {
